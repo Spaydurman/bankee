@@ -6,7 +6,9 @@
 - Use Tailwind CSS 4 through `@tailwindcss/vite`; import it in `src/index.css`.
 - Use Motion from `motion/react` for UI animation.
 - The UI/UX Pro Max skill is installed at `.agents/skills/ui-ux-pro-max/`. For tasks that design or change an interface, read its `SKILL.md` and use its relevant guidance. Its search scripts require Python 3.
-- No product features, branding, API, or backend have been specified yet. Treat `src/App.jsx` as a replaceable starter screen, not a product specification.
+- This is a proposed marketing site for Ban Kee Trading, Inc., a Philippine distributor of toys, baby products, and collectibles. The current page is a redesign draft, not a deployed site.
+- Company facts come from `https://bankee.com.ph/`. The two curated social highlights come from public posts on `https://www.facebook.com/bankeetoys.ph` seen in October 2026; they are static, not a live feed.
+- Site imagery in `public/images/` was sourced from those pages. Keep brand marks in their original proportions and record new third-party assets in the README.
 
 ## Working conventions
 
@@ -29,3 +31,4 @@
 - `src/App.jsx` is the current entry component.
 - `src/index.css` loads Tailwind and global styles.
 - `vite.config.js` configures React and Tailwind plugins.
+- `public/images/` contains local copies of source-site and social post artwork used in the redesign.
